@@ -11,7 +11,7 @@ import javax.swing.*;
  	JLabel l1,l2;
  	JTextField t1;
  	public void init(){
- 		setLayout(new GridLayout (2,2));
+ 		setLayout(new GridLayout (2,2,5,5));
  		l1=new JLabel("Enter Number");
  		t1=new JTextField(20);
  		b1=new JButton("Click Me");
